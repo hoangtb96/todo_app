@@ -6,14 +6,14 @@ A Todo list app.
 
 flutter run
 
-# if gettting error because of lacking of package (For the first time running app)
+## if gettting error because of lacking of package (For the first time running app)
 flutter pub get
 
 ## Run test 
 
 flutter test --coverage 
 
-# Generate file html for displaying coverage info if needed 
+## Generate file html for displaying coverage info if needed 
 
 genhtml coverage/lcov.info --output=coverage
 
